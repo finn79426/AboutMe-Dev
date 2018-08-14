@@ -14,9 +14,9 @@
     </div>
     <div id="about" class="card">
       <h2>關於我</h2>
-      <p>你好，我是白羊，很高興認識你。</p>
-      <p>左手編程、右手設計，我喜歡運用資訊技術解決生活大小事，透過設計充實生活。</p>
-      <p>現任李梅樹紀念館資訊組RD、蘋果仁科技媒體編輯。</p>
+      <p>解決小問題，沒有大問題</p>
+      <p>我是曹富翔，大家都叫我小曹，我喜歡用程式語言解決日常所遇到的問題來改善生活</p>
+      <p>專長在資安，現任 6l0ry CTF Team 與 TDOHacker 漏洞挖掘小組</p>
     </div>
     <div id="skill" class="card">
       <h2>技能樹</h2>
@@ -36,91 +36,79 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        name: 'Aries Cs',
-        id: '@aries0d0f',
-        photo: 'https://i.imgur.com/ufhMP9v.jpg',
-        contacts: [
-          {
-            link: 'https://github.com/Aries0d0f',
-            icon: ['fab', 'github']
-          },
-          {
-            link: 'mailto:aries0d0f@gmail.com',
-            icon: ['fas', 'envelope']
-          },
-          {
-            link: 'tel:+886966657716',
-            icon: ['fas', 'phone']
-          },
-          {
-            link: 'https://fb.com/aries0d0f',
-            icon: ['fab', 'facebook-f']
-          },
-          {
-            link: 'https://www.linkedin.com/in/aries-cs-55677a145/',
-            icon: ['fab', 'linkedin-in']
-          },
-          {
-            link: 'https://t.me/Aries0d0f',
-            icon: ['fab', 'telegram-plane']
-          }
-        ],
-        skill: [
-          {
-            name: 'HTML & CSS',
-            rate: 5
-          },
-          {
-            name: 'UI／UX Design',
-            rate: 5
-          },
-          {
-            name: 'JavaScript',
-            rate: 4
-          },
-          {
-            name: 'Node.js',
-            rate: 4
-          },
-          {
-            name: 'Vue.js',
-            rate: 4
-          },
-          {
-            name: 'Linux Server Administration',
-            rate: 4
-          },
-          {
-            name: 'RESTful API',
-            rate: 4
-          }
-        ],
-        experience: [
-          {
-            title: '李梅樹紀念館資訊組 RD',
-            date: '現任'
-          },
-          {
-            title: '蘋果仁 Applealmond 編輯',
-            date: '現任'
-          },
-          {
-            title: '#UnaHack1 黑客松特別獎',
-            date: '2017/02'
-          },
-          {
-            title: '李梅樹紀念館暑期志工資訊能力訓練課程講師',
-            date: '2017/07'
-          },
-          {
-            title: '中崙高中資研社網頁前端課程專任講師',
-            date: '2017/10'
-          }
-        ]
-      }
+export default {
+  data () {
+    return {
+      name: '小曹',
+      id: '@howpwn',
+      photo: 'https://i.imgur.com/7WB99TK.jpg',
+      contacts: [
+        {
+          link: 'https://github.com/finn79426',
+          icon: ['fab', 'github']
+        },
+        {
+          link: 'mailto:finn79426@gmail.com',
+          icon: ['fas', 'envelope']
+        },
+        {
+          link: 'tel:+886910950759',
+          icon: ['fas', 'phone']
+        },
+        {
+          link: 'https://fb.com/howpwn',
+          icon: ['fab', 'facebook-f']
+        },
+        {
+          link: 'http://blog.howpwn.tw',
+          icon: ['fas', 'rss']
+        },
+        {
+          link: 'https://t.me/h0wpwn',
+          icon: ['fab', 'telegram-plane']
+        }
+      ],
+      skill: [
+        {
+          name: 'Python',
+          rate: 5
+        },
+        {
+          name: 'Markdown',
+          rate: 5
+        },
+        {
+          name: 'Shell Script',
+          rate: 4
+        },
+        {
+          name: 'C',
+          rate: 3
+        },
+        {
+          name: 'Assembly',
+          rate: 3
+        },
+        {
+          name: 'HTML',
+          rate: 3
+        }
+      ],
+      experience: [
+        {
+          title: '6l0ry CTF Team',
+          date: '現任'
+        },
+        {
+          title: 'TDOHacker 漏洞挖掘研究組',
+          date: '現任'
+        },
+        {
+          title: '欣亞數位 - 組裝工讀生',
+          date: '2016/04 - 2016/09'
+        }
+      ]
     }
   }
+}
 </script>
